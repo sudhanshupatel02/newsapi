@@ -35,7 +35,8 @@ export class News extends Component {
 
   async updateNews(){
     this.props.setProgress(10);
-    let url =`https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=2dfcc20cf21742789fb4a4e0f7a344f0&page=${this.state.page}&pageSize=${this.props.pageSize}`;
+    let url =`https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&
+    apiKey=${this.props.apiKey}&page=${this.state.page}&pageSize=${this.props.pageSize}`;
     this.setState({loading:true});
     let data = await fetch(url);
     this.props.setProgress(30);
@@ -82,7 +83,7 @@ fetchMoreData = async() => {
     return (
       <>
         <h1 className="text-center" style={{margin:'40px 0px,'}}>NewsMonkey - Top {this.capitalizeFirstLetter(this.props.category)} Headlines</h1>
-        {/* {this.state.loading && <Spinner/>}        */}
+        {/* {this.state.loading && <Spinner/>}        */} 
         <InfiniteScroll
           dataLength={this.state.articles.length}
           next={this.fetchMoreData}
