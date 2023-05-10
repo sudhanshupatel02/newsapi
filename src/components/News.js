@@ -31,21 +31,12 @@ const News = (props)=> {
 
   useEffect(() => {
     updateNews();
+    //eslint-disable-next-line
   }, [])
-
- const handlePrevClick = async ()=>{
-  setPage(page-1)
-    updateNews();
-  }
-
- const handleNextClick = async ()=>{
-  setPage(page+1)
-  updateNews();
-}
 
 const fetchMoreData = async() => {
    setPage(page+1)
-   let url =`https://newsapi.org/v2/top-headlines?country=${props.country}&category=${props.category}&apiKey=2dfcc20cf21742789fb4a4e0f7a344f0&page=${page}&pageSize=${props.pageSize}`;
+   let url =`https://newsapi.org/v2/top-headlines?country=${props.country}&category=${props.category}&apiKey=2dfcc20cf21742789fb4a4e0f7a344f0&page=${page+1}&pageSize=${props.pageSize}`;
     let data = await fetch(url);
     let parsedData = await data.json()
     console.log(parsedData);
@@ -57,7 +48,7 @@ const fetchMoreData = async() => {
     console.log("render")
     return (
       <>
-        <h1 className="text-center" style={{margin:'40px 0px,'}}>NewsMonkey - Top {capitalizeFirstLetter(props.category)} Headlines</h1>
+        <h1 className="text-center" style={{margin:'40px 0px',marginTop:'90px'}}>NewsMonkey - Top {capitalizeFirstLetter(props.category)} Headlines</h1>
         {loading && <Spinner/>}       
         <InfiniteScroll
           dataLength={articles.length}
