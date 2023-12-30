@@ -2,10 +2,20 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Available Scripts![Screenshot 2023-12-30 153914](https://github.com/sudhanshupatel02/newsapi/assets/112975449/6e1a7eed-f180-4016-ab2f-b4f47a2242f0)
 
-In the project directory, you can run:
 
+In the project directory, you can run:![Screenshot 2023-12-30 162335](https://github.com/sudhanshu![Scree![Screenshot 2023-12-30 162532](https://github.com/sudhanshupatel02/newsapi/assets/112975449/6a6334c1-3d1d-4a33-b770-0d88fe4d2942)![Screenshot 2023-12-30 162743](https://github.com/sudhanshupatel02/newsapi/assets/112975449/e4415008-0fab-49dc-8052-f527d98efe81)
+
+nshot 2023-12-30 162503](https://github.com/sudhanshupatel02/newsapi/assets/112975449/dcb472b9-56e9-48c0-8d3e-896a0b![Screenshot 2023-12-30 162625](https://github.com/sudhanshupatel02/newsapi/assets/112975449/b3874eb3-2845-45c9-b596-24fe85a34dfc)
+f4a1f0)![Screenshot 202![Screenshot 2023-12-30 162719](https://github.com/sudhanshupatel02/newsapi/assets/112975449/cc5f5725-d7bc-4883-8527-b8133a2eccd1)
+3-12-30 162654](https://github.com/sudhanshupatel02/newsapi/assets/112975449/b0415e64-aa3b-4559-8548-d542278a8341)
+
+patel02/newsapi/assets/112975449/2b41d754-e2b5-45ed-a4bb-96a02be5f4fa)
+
+
+![Screenshot 2023-12-30 162254]![Screenshot 2023-12-30 162432](https://github.com/sudhanshupatel02/newsapi/assets/112975449/47e48d40-5bb5-4e74-bf5e-6fa8fd44fd06)
+(https://github.com/sudhanshupatel02/newsapi/assets/112975449/dbb0ed62-2575-49ad-8b58-08f8d743426d)
 
 ### `npm start`
 
